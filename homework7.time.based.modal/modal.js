@@ -5,7 +5,7 @@
  */
  
 (function($) {
- 
+ 	
     $.fn.parallax = function(options) {
  
         var windowHeight = $(window).height();
@@ -44,9 +44,14 @@
 }(jQuery));
 
 $('.bg-1,.bg-3').parallax({
-	speed :	0.15
+	speed :	0.5
 });
 
 $('.bg-2').parallax({
 	speed :	0.25
 });
+
+function timeFunction() {
+    alert('Hello')
+
+}
