@@ -1,0 +1,26 @@
+#idOne{
+
+	font-size: 50px;
+
+	position: relative;
+
+	left: 10px;
+
+	top: 10px;
+
+	display: inline-block;
+
+	border: solid orange 2px;
+
+	width: auto;
+
+	height: auto;
+
+
+
+}
+
+/*#idTwo{
+
+	display: inline-block;
+}*/
